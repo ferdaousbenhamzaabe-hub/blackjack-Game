@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blackjack Game</title>
+
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+
+<body>
+
+    <h1>BLACKJACK</h1>
+
+
+    <!-- =========================
+         INFORMATIONS DU JOUEUR
+         ========================= -->
+
+    <div class="input-section">
+
+        <label for="name-input">
+            Enter your name:
+        </label>
+
+        <input
+            type="text"
+            id="name-input"
+            placeholder="Example: Per"
+        >
+
+    </div>
+
+
+    <div class="input-section">
+
+        <label for="chips-input">
+            Enter your money:
+        </label>
+
+        <input
+            type="number"
+            id="chips-input"
+            min="1"
+            placeholder="Example: 200"
+        >
+
+    </div>
+
+
+    <!-- Bouton pour créer le joueur -->
+
+    <button onclick="createPlayer()">
+        CREATE PLAYER
+    </button>
+
+
+    <!-- Informations du joueur -->
+
+    <p id="player-el">
+        Player not created
+    </p>
+
+
+    <!-- =========================
+         CHOIX DE LA MISE
+         ========================= -->
+
+    <div class="input-section">
+
+        <label for="bet-input">
+            Choose your bet:
+        </label>
+
+        <input
+            type="number"
+            id="bet-input"
+            min="1"
+            placeholder="Example: 20"
+        >
+
+    </div>
+
+
+    <!-- =========================
+         CHOIX DE LA TARGET
+         ========================= -->
+
+    <div class="input-section">
+
+        <label for="target-input">
+            Choose your target (1 - 50):
+        </label>
+
+        <input
+            type="number"
+            id="target-input"
+            min="1"
+            max="50"
+            value="21"
+        >
+
+    </div>
+
+
+    <!-- =========================
+         ZONE DU JEU
+         ========================= -->
+
+    <div class="game-section">
+
+        <h2>Your Cards</h2>
+
+        <p id="cards-el">
+            Cards:
+        </p>
+
+        <p id="sum-el">
+            Sum: 0
+        </p>
+
+        <p id="target-el">
+            Target: -
+        </p>
+
+    </div>
+
+
+    <!-- Message du jeu -->
+
+    <p id="message-el">
+        Create your player first.
+    </p>
+
+
+    <!-- =========================
+         BOUTONS
+         ========================= -->
+
+    <div id="btn">
+
+        <button onclick="startGame()">
+            START GAME
+        </button>
+
+        <button onclick="newCard()">
+            NEW CARD
+        </button>
+
+    </div>
+
+
+    <!-- Affichage de la mise -->
+
+    <p id="bet-el">
+        Bet: $0
+    </p>
+
+
+    <!-- JavaScript -->
+
+    <script src="blackjack.js" defer></script>
+
+</body>
+
+</html>

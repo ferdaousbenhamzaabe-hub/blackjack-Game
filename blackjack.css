@@ -1,0 +1,230 @@
+
+body {
+    margin: 0;
+    padding: 30px;
+
+    background-color: #075e32;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+}
+
+
+/* =========================
+   TITRE
+   ========================= */
+
+h1 {
+    color: goldenrod;
+
+    font-size: 50px;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   ZONE DES INPUTS
+   ========================= */
+
+.input-section {
+
+    width: 300px;
+
+    margin: 15px auto;
+
+    padding: 15px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   LABEL
+   ========================= */
+
+label {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   INPUT
+   ========================= */
+
+input {
+
+    width: 90%;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    text-align: center;
+}
+
+
+/* =========================
+   INFORMATIONS JOUEUR
+   ========================= */
+
+#player-el {
+
+    color: goldenrod;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin: 20px;
+}
+
+
+/* =========================
+   ZONE DU JEU
+   ========================= */
+
+.game-section {
+
+    width: 80%;
+
+    max-width: 600px;
+
+    margin: 25px auto;
+
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.15);
+
+    border: 2px solid goldenrod;
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   CARTES
+   ========================= */
+
+#cards-el {
+
+    font-size: 22px;
+
+    color: goldenrod;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   SOMME
+   ========================= */
+
+#sum-el {
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   TARGET
+   ========================= */
+
+#target-el {
+
+    font-size: 20px;
+
+    color: goldenrod;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   MESSAGE
+   ========================= */
+
+#message-el {
+
+    font-size: 20px;
+
+    color: goldenrod;
+
+    font-weight: bold;
+
+    margin: 25px;
+}
+
+
+/* =========================
+   BOUTONS
+   ========================= */
+
+button {
+
+    background-color: goldenrod;
+
+    color: #075e32;
+
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 12px 20px;
+
+    margin: 5px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+
+    background-color: #ffd45c;
+
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   MISE
+   ========================= */
+
+#bet-el {
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   BOUTON CREATE PLAYER
+   ========================= */
+
+#create-player {
+
+    margin-bottom: 20px;
+}
